@@ -1,8 +1,16 @@
 .intro-container{
     text-align: center;
-    height: 500px;
+    height: 400px;
     width: 100%;
     border: 1px solid black;
     
+}
+.work-intro{
+    border: 1px solid black;
+}
+.footer{
+    border: 1px solid black;
+    height : 200px ;
+
 }
 
