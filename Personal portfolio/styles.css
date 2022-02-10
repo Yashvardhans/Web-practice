@@ -5,12 +5,68 @@
     border: 1px solid black;
     
 }
-.work-intro{
+.work-info{
     border: 1px solid black;
 }
 .footer{
     border: 1px solid black;
     height : 200px ;
+    text-align: center;
+    padding: 50px;
 
+}
+.dev-details{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.front-end{
+   
+    height: 100%;
+    width: 33.33%;
+    position: absolute;
+    border: 1px solid black;
+}
+.back-end{
+    
+    margin-left: 33.33%;
+    height: 100%;
+    width: 33.33%;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.android-dev{
+    margin-left: 66.66%;
+    position: absolute;
+    height: 100%;
+    width: 33.33%;
+    border: 1px solid black;
+}
+
+.fe-heading , .fe-languages{
+    margin-left: 33.33%;
+    text-align: center;
+}
+.be-heading , .be-languages , .a-heading{
+    text-align: center;
+}
+
+.android-dev{
+    text-align: center;
+}
+
+.project-tile{
+    width: 23%;
+    height : 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5%;
+}
+
+.row{
+    width: 100%;
+   
 }
 
