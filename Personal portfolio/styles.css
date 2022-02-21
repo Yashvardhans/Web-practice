@@ -3,7 +3,19 @@
     height: 400px;
     width: 100%;
     border: 1px solid black;
+    margin: 0%;
     
+}
+.title{
+    width: 100%;
+    height: 100%;
+    background-color: #03045E;
+    margin: 0;
+}
+
+.greeting{
+    padding-top: 100px;
+    color:  #FFFFFF;
 }
 .work-info{
     border: 1px solid black;
@@ -13,44 +25,36 @@
     height : 200px ;
     text-align: center;
     padding: 50px;
+    background-color: #FFC600;
 
 }
 .dev-details{
     width: 100%;
     height: 200px;
-    position: relative;
+    margin: 0;
+    background-color: black;
 }
 
 .front-end{
    
-    height: 100%;
-    width: 33.33%;
-    position: absolute;
+    
     border: 1px solid black;
 }
 .back-end{
     
-    margin-left: 33.33%;
-    height: 100%;
-    width: 33.33%;
-    position: absolute;
+    
     border: 1px solid black;
 }
 
 .android-dev{
-    margin-left: 66.66%;
-    position: absolute;
-    height: 100%;
-    width: 33.33%;
+    
     border: 1px solid black;
 }
 
-.fe-heading , .fe-languages{
-    margin-left: 33.33%;
+
+.be-heading , .be-languages , .a-heading,.fe-heading , .fe-languages , .a-languages{
     text-align: center;
-}
-.be-heading , .be-languages , .a-heading{
-    text-align: center;
+    color: #FFFFFF;
 }
 
 .android-dev{
@@ -58,15 +62,35 @@
 }
 
 .project-tile{
-    width: 23%;
+    width: 29.33%;
     height : 200px;
     border: 1px solid black;
     text-align: center;
-    margin: 5%;
+    margin: 2%;
+    background: url("images/p2.jpg");
 }
 
 .row{
     width: 100%;
+    margin: 0;
    
 }
+
+.title-image{
+    padding: 0%;
+}
+
+.work-heading , .project-heading{
+    font-size: 30px;
+    color: #5800FF;
+    background-color: #E900FF;
+}
+
+.project-info-content{
+    background-color: #000000;
+}
+
+
+
+
 
