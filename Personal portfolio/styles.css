@@ -1,161 +1,304 @@
-.intro-container{
-    text-align: center;
-    height: 400px;
-    width: 100%;
-    
+body {
     margin: 0%;
     
+	
 }
 
-.navbar{
-    background-color: #03045E;
+
+
+/**************************************** nav section *******************************************/
+
+.navbar-wrapper{
+    width: 100%;
+    height: auto;
+    position:fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 100;
+    padding: 20px 10px 20px ;
+    background-color: black;
     
+    
+
+}
+a{
+    text-decoration: none;
+}
+
+.nav-link{
+    padding: 10px;
+    font-size: 20px;
+    color: #39FF14;
     font-weight: 500;
-    font-family: 'Lobster',cursive;
+    font-family: 'Koulen', cursive;
+    
+}
+
+
+
+
+/*************************************************Introduction************************************/
+
+.intro-content{
+    
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    background-color: #202334;
+    padding-top: 150px;
+    color: white;
+   
+    font-family: 'Patua One', cursive;
+	
+	
+}
+
+.intro-sub{
+    font-size: 15px;
+    padding-right: 100px;
+}
+
+
+
+/**************************************** Skills ***********************************************/
+#skill-wrapper{
+    height: auto;
+    background-color: #444a6e;
+}
+
+.skill-header{
+    margin-top: 0%;
+    text-align: center;
+    color: #F4D03F;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
 
 }
 
-.home-button{
-     color: white;
+.skill-p1,.skill-p2{
+    display: flex;
+}
+
+.skill-1 {
+    display :inline-block;
+    flex: 1;
+    text-align: center;
     
-   }
 
-.navbar-nav{
-    padding-left: 50px;
-}   
+}
+.skill-2{
+    
+    text-align: center;
+    flex: 1;
+    
+}
 
-.title{
+.skill-3 {
+    display :inline-block;
+    flex: 1;
+    text-align: center;
+
+}
+.skill-4{
+    flex: 1;
+    text-align: center;   
+}
+.skill-1 , .skill-2 , .skill-3 , .skill-4{
+    width: 35%;
+    margin: 5%;
+    border: 2px solid white;
+    color: #E67E22 ;
+    padding-bottom:30px ;
+    height: auto;
+    background-color: white;
+    box-shadow: 20px 20px 20px rgb(37, 7, 46) ; 
+    border-radius: 15px;
+    
+    
+}
+h2{
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Bree Serif', serif;
+}
+.skill-image {  
+    width:150px ; 
+    height: 150px;  
+    border-radius: 50%;
+    padding-top: 30px;
+ } 
+ 
+.skill-set{
+    font-size: 25px;
+    padding-top: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color : #0E6655; 
+}
+
+/*****************************************Projects***********************************************/
+
+#project-wrapper{
+    height: auto;
+    background-color: #747ca9;
+}
+.project-header{
+    text-align: center;
+    color: #F4D03F;
+    margin-top: 0%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+
+}
+.project-header-head{
+    width: 100%;
+    height: auto;
+    background-color: #202334;
+    text-shadow: 1px 1px 1px #F4D03F,
+        1px 2px 1px #F4D03F,
+        1px 2px 1px #F4D03F,
+        
+        
+        
+    1px 15px 6px rgba(16,16,16,0.4),
+    1px 15px 10px rgba(16,16,16,0.2),
+    1px 15px 35px rgba(16,16,16,0.2),
+    1px 15px 60px rgba(16, 16, 16, 0.4);
+    
+    
+}
+
+.two-project{
+    display: flex;
+}
+
+.project-1 , .project-2 , .project-3 , .project-4{
+    width: 35%;
+    height: 400px;
+    margin: 5%;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    
+    background-color: white;
+    box-shadow: 15px 15px 15px rgb(37, 7, 46)
+    
+}
+
+.active{
+    background-color: #202334;
+}
+
+
+
+.project-1{
+    flex: 1;
+}
+.project-2{
+    flex: 1;
+}
+.project-3{
+    flex: 1;
+}
+.project-4{
+    flex: 1;
+}
+.project-image{
     width: 100%;
     height: 100%;
-    background-color: #03045E;
-    margin: 0;
+    border-radius: 15px;
+
 }
 
-.greeting{
-    padding-top: 100px;
-    color:  #FFFFFF;
-    font-family: 'Lobster', cursive;    
-}
-
-
-.work-intro{
-    height: 750px;
-    background-color: #00B4D8;
-}
-.footer{
-   
-    height : 200px ;
-    text-align: center;
-    padding: 50px;
-    background-color: black;
-    font-size: 1.5em;
-    font-family: 'Acme',sans-serif;
-    font-weight: 500;
+/*********************************************Contact***********************************************/
+.contact-wrapper{
+    width: 100%;
+    height: 500px;
+    
+    background-color: #818598;
     color: white;
-    
-
-}
-.dev-details{
-    width: 100%;
-    height: 400px;
-    margin: 0;
-    background-color: whitesmoke;
-    
+    font-family: 'Koulen', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    padding-top:50px ;
 }
 
-.front-end,.back-end,.android-dev{
-    text-align: center;
-    border: 8px solid #00B4D8;
-    
+.contact-links{
+    flex: 1 ;
+    font-size: 10px;
+    padding: 20px;
+}
+.contact-header{
+    padding-left: 50px;
     
 }
 
-.dev-images{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    
-    
+.contact-form{
+    flex: 1;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
 }
-
-
-.be-heading , .be-languages , .a-heading,.fe-heading , .fe-languages , .a-languages{
-    text-align: center;
-    color: #03045E;
-    font-family: 'Acme', sans-serif;
-    padding-top: 50px;
-}
-.be-heading,.a-heading,.fe-heading{
-    font-size: 2em;
-    padding-bottom: 50px;
-
-}
-
-.be-languages,.fe-languages,.a-languages{
-    font-size: 1.5em;
-}
-
-
-
-
-.project-tile{
-    width: 29.33%;
-    height : 200px;
-    border: 10px solid white;
-    text-align: center;
-    margin: 2%;
-    background: url("images/p2.jpg");
-    padding: 0;
-}
-
-.row{
-    width: 100%;
-    margin: 0;
-   
-}
-
-.title-image{
-    padding: 0%;
-}
-
-.work-heading , .project-heading{
-    font-size: 2.5em;
-    color:  whitesmoke;
-    background-color: #00B4D8;
-    font-weight: 500;
-    font-family: 'Lobster' , cursive;
-    text-align: center;
-    padding: 80px;
-}
-
-.project-heading{
-    background-color: #21325E;
+input{
+    width: 304px;
+    height: 30px;
+    display: block;
+    font-family: 'Koulen', cursive ;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     
 }
+textarea{
+    width: 304px;
+    height: 150px;
+    padding: 5px;
+    display: block ;
+    margin-top: 20px;
+    font-family: 'Koulen', cursive ;
+}
 
-
-
-.project-info-content{
-    background-color: #21325E;
+.contact-form-wrapper{
+    display: flex;
 
 }
 
-.project-tile-info{
-    width: 100%;
-    height: 50%;
-    margin-top: 100px;
-    background-color: white;
-    padding-top: 20px;
-    font-family: 'Acme', sans-serif;
-    font-weight: 500;
-    opacity: 0.7;
-    
-}
-
-.contact-images{
+.contact-link{
+    display: block;
     width: 50px;
-    height: 50px;
-    padding: 10px;
+    height:50px;
+    margin-left: 80px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+.submit{
+    width: 150px;
+    margin-top: 20px;
 }
 
 
+
+.link-name{
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+   
+  }

@@ -1,0 +1,135 @@
+/***https://icons8.com/icon/80981/share*/
+
+body{
+    margin: 0%;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    
+}
+
+.share{
+    padding-top: 10px;
+    margin-right: 20px;
+    margin-left: 1200px;
+    
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/bg-3.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ff007f;
+    text-align: center;
+    font-size: 30ox;
+    border-bottom:5px solid pink ;
+}
+
+
+.title{
+    font-size: 50px;
+    padding-top: 5px;
+    font-family: 'Kavoon', cursive;
+    color: #FEC0CB;
+}
+
+
+
+.name , input{
+    height: 40px;
+    width: 350px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 480px;
+    margin-top: 50px;
+    
+    border-radius: 20px;
+    
+}
+input{
+     font-family: 'Bubblegum Sans', cursive;
+     color: #ff0080d3;
+     font-weight: 600;
+     border: 4px solid #FEC0CB ;
+     font-size: 20px;
+     text-transform: uppercase;
+    
+}
+
+.name{
+    color: white;
+    font-size: 30px;
+    font-family: 'Kavoon', cursive;
+}
+
+#calculate{
+    height: 50px;
+    width: 170px;
+    margin-left: 570px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Kavoon', cursive;
+    background-image: url("images/giphy.gif");
+    background-size: cover;
+    border: 4px solid #FEC0CB ;
+    color : #ff007f;
+    border-radius: 10px;
+}
+
+
+
+#l_perc{
+    width: 50px;
+    height: 50px;
+   
+}
+
+
+.popup {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    background-image: url("images/bg-2.jpg");
+    background-size: cover;
+    top: 30%;
+    left: 38%;
+    font-family: 'Kavoon', cursive;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    z-index: 10;
+    visibility: hidden;
+    
+}
+.open-pop{
+    visibility: visible;
+}
+
+#pop-header{
+    margin-left: 80px;
+   
+    margin-top: 10px;
+
+}
+
+#l_perc{
+  
+    margin-top: 120px;
+    margin-left: 135px;
+
+}
+
+
+
+

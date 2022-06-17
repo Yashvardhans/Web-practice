@@ -1,0 +1,332 @@
+/*font-family: "Raleway-bold"  <a href="https://iconscout.com/icons/coding" target="_blank">Coding Icon</a> by <a href="https://iconscout.com/contributors/kerismaker" target="_blank">Kerismaker Studio</a>*/
+
+body{
+    margin: 0;
+}
+
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    background-color: rgba(36, 41, 67, 1);
+    border-bottom: 4px solid aqua;
+    z-index: 1;
+    
+}
+span{
+    padding: 10px;
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+    color: cyan;
+}
+
+.nav-items{
+    padding: 18px;
+}
+
+span:hover{
+  color: white;
+}
+
+.intro-wrapper{
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+
+}
+
+.intro-div{
+    
+    position: absolute;
+    width: 100% ;
+    height: 100vh;
+    
+   
+    background: rgba(36, 41, 67, 0.8)
+}
+.intro-content{
+    font-size: 50px;
+    padding-top: 200px;
+    padding-left: 200px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+
+    text-shadow: 1px 1px 1px #f2f1ec, 
+    1px 2px 1px #f2f1ec,
+    1px 2px 1px #f2f1ec, 
+    1px 15px 6px rgb(16 16 16 / 40%),
+    1px 15px 10px rgb(16 16 16 / 20%), 
+    1px 15px 35px rgb(16 16 16 / 20%), 
+    1px 15px 60px rgb(16 16 16 / 40%);
+}
+.intro-content::after{
+    content: '';
+    background-color: #ffffff;
+    display: block;
+    margin-bottom: 20px;
+    height: 3px;
+    margin: 1em 0 0.5em 0;
+    
+    width:90%;
+}
+
+p{
+    padding-top: 5px;
+    padding-left: 200px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+
+}
+.cont-button{
+    width: 150px;
+    height: 30px;
+    font-family: 'Koulen', cursive;
+    border: 3px solid #ffffff;
+    margin-top: 30px;
+    margin-left:200px ;
+    text-align: center;
+    color: white;
+    padding-top: 2px ;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.cont-button:hover{
+    color: cyan;
+    border: 3px solid cyan;
+}
+
+/**********************************Skills-section*********************************************/
+
+.header{
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 50px;
+    color: #444649;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    
+
+}
+
+.header::after{
+    display: block;
+    content: "";
+     width: 120px;
+     height: 1px;
+     border: 2px solid #444649;
+     background-color: #444649;
+     margin-left: 45%;
+     margin-top: 20px;
+}
+.skill-wrapper{
+    background-color: white;
+}
+
+.skills{
+    display: flex;
+    padding: 20px;
+}
+
+.skill-sec{
+    height: 100vh;
+    
+}
+
+.skill-card {
+    
+    width:350px;
+    height: 450px;
+    
+    font-family: 'Koulen', cursive;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+.skill-header{
+    font-weight: 600;
+    font-size: 30px;
+    color: cyan;
+   
+}
+
+.sk-img{
+    height: 120px;
+    width: 120px;
+    margin-top: 50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+
+}
+
+.skill-desc{
+    padding: 15px;
+    
+    color: #444649;
+    font-family: 'Koulen', cursive;
+    font-weight: 600;
+}
+
+
+/***************************************Projects************************************/
+
+.project-wrapper{
+    background-color: whitesmoke;
+}
+
+.project-item{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin-left: 110px;
+    
+    background-color: black;
+    border: 1px solid black;
+    
+
+}
+
+.project-card{
+    
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+
+.proj-no{
+    margin-top: 50px;
+    font-size: 50px;
+    font-family:'Fira Sans', sans-serif ;
+}
+
+.project-container{
+    width: 90%;
+    margin-left: 70px;
+    height:auto;
+    background-color:white;
+    
+}
+
+.project{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pj-img{
+    flex: 1;
+    border: 1px solid white;
+}
+.pj-desc{
+    flex: 1;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    color: white;
+}
+
+/********************************************* contact **************************/
+.contact-wrapper{
+    width: 100%;
+    height: 525px;
+    
+    background-color: rgba(36, 41, 67, 1);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    padding-top:50px;
+}
+
+.contact-header{
+    padding-left: 50px;
+    
+}
+
+.contact-form{
+    flex: 1;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+input{
+    width: 304px;
+    height: 30px;
+    display: block;
+    font-family: 'Koulen', cursive ;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+textarea{
+    width: 304px;
+    height: 150px;
+    padding: 5px;
+    display: block ;
+    margin-top: 20px;
+    font-family: 'Koulen', cursive ;
+}
+
+.contact-form-wrapper{
+    display: flex;
+
+}
+
+
+.submit{
+    width: 150px;
+    margin-top: 20px;
+}
+
+
+.contact-links{
+    flex: 1;
+}
+
+.link-head{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+
+}
+.cont-img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 50%;
+    
+}
+
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+   
+  }
