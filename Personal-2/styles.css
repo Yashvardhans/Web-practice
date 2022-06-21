@@ -87,7 +87,7 @@ p{
 .cont-button{
     width: 150px;
     height: 30px;
-    font-family: 'Koulen', cursive;
+    font-family: 'Koulen', cursive , Verdana, Geneva, Tahoma, sans-serif;
     border: 3px solid #ffffff;
     margin-top: 30px;
     margin-left:200px ;
@@ -99,6 +99,8 @@ p{
 
 a{
     text-decoration: none;
+    color: aqua;
+    
 }
 
 .cont-button:hover{
@@ -246,12 +248,6 @@ a{
     padding-top: 180px; 
     font-family: 'Koulen', cursive;
     font-size: 30px;
-    color: aqua;
-    transition: all 2000ms ease;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 2000ms ease;
-    -ms-transition: all 2000ms ease;
-    -o-transition: all 2000ms ease;
     
    
 }
