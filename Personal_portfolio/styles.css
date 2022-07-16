@@ -1,0 +1,527 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    
+    
+    }
+
+
+body{
+    margin : 0;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.cont{
+    min-width: 100%;
+    
+}
+#navbar{
+    background-color: black;
+    border-bottom: 4px solid aqua;
+    
+}
+
+.nav-item{
+    font-size: 1.10rem;
+    font-weight: 600;
+}
+
+.nav-link{
+   color: rgba(235, 244, 244 , 1) ;
+}
+.nav-link:active{
+    color: rgba(0, 255, 255,1);
+    font-weight: 800;
+}
+
+.nav-link::after{
+   content: "";
+   display: block;
+   width: 100%;
+   height: 3px;
+   background-color: aqua;
+   border: 1px solid aqua;
+   transform: scaleX(0);
+   transition:transform 450ms ease-in-out;
+}
+
+.nav-link:hover::after{
+    transform: scaleX(1);
+}
+
+
+
+
+.navbar-brand{
+    margin-left: 2%;
+    color: white;
+    font-size: 2rem;
+    
+}
+
+.nav_wrapper{
+   margin-left: 65%;
+   color: white;
+   
+}
+
+@media (max-width : 576px){
+    .nav_wrapper{
+        margin: 0;
+        text-align: center;
+    }
+}
+
+/**************************************introduction*******************************************************/
+.intro_carousel{
+   
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.hello  ,.intro_content{
+    text-align: center;
+    color: white;
+}
+
+.intro_content{
+    font-size: 5rem;
+}
+.subtitle{
+    font-size: 2rem;
+}
+
+.hello{
+    margin-right: 18%;
+    padding-top: 5rem;
+    font-weight: 600;
+}
+.hello_right{
+    margin-right: 0;
+}
+
+.name{
+    color: aqua;
+}
+.carousel-control-next , .carousel-control-prev{
+    opacity: 0.1;
+}
+.intro_buttons{
+    width: 100%;
+    margin: 5% 34%;
+    padding-left: 3rem;
+}
+.btn_1{
+    background-color: aqua;
+    color: black;
+    width: 150px;
+    height: 50px;
+    
+    padding-right: 10px;
+}
+.btn_1 , .btn_2{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btn_2{
+    border: 4px solid aqua;
+    color: white;
+    margin-left: 10px;
+}
+.btn_1:focus{
+    background-color: rgba(81, 76, 76 , 0.8);
+    color: aqua;
+}
+
+.btn_1:visited{
+    background-color: rgba(81, 76, 76 , 0.8);
+    color: aqua;
+}
+.btn_1:active{
+    background-color: aqua;
+    color: white;
+}
+
+.btn_1:hover{
+    background-color: rgba(81, 76, 76 , 0.8);
+    color: aqua;
+   
+}
+
+.btn_2:hover{
+    border: 4px solid white;
+    color: aqua;
+}
+
+.btn_2:focus{
+    border: 4px solid white;
+    color: aqua;
+}
+
+.btn_2:visited{
+    border: 4px solid white;
+    color: aqua;
+}
+.btn_2:active{
+    border: 4px solid aqua;
+    color: white;
+}
+@media (max-width : 576px){
+    .intro_buttons{
+        margin: 0;
+        padding-top: 40px;
+    }
+    .intro_content{
+        font-size: 4rem;
+    }
+    .subtitle{
+        font-size: 1.5rem;
+        padding-top: 40px;
+        
+    }
+}
+
+/******************************************about***********************************/
+#about{
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    font-size: 4.5rem;
+    color: whitesmoke;
+    margin-top: 10rem;
+    font-weight: 700;
+}
+
+.about_content{
+    color: whitesmoke;
+    display: flex;
+    padding-top: 2rem;
+}
+
+
+.about_list{
+    flex: 1;
+}
+.about_desc{
+    flex: 1;
+}
+
+.list_item{
+    width: 100%;
+    padding: 0.5rem;
+    margin-left: 3rem;
+    justify-self: center;
+    padding-top: 2rem;
+    display: flex;
+}
+.profile_list{
+    list-style: none;
+}
+.profile_img{
+    margin-left: 7rem;
+    height: 18rem;
+    width: 18rem;
+    border-radius:50% ;
+}
+.desc{
+   justify-self: center;
+   padding-top: 2rem;
+   font-weight: 600;
+}
+.list_title{
+      flex: 1;
+      text-align: left;
+      font-weight: 600;
+      font-size: 1.15rem;
+      color: cyan;
+    
+}
+.li_item_info{
+    margin-right: 2rem;
+    flex: 1;
+    text-align: left;
+    color: rgb(255, 255, 255,0.8);
+    
+}
+
+@media (max-width :576px){
+    
+    .header_about {
+        margin: 0;
+    }
+    .about_content{
+        display: block;
+    }
+    .about_list{
+        display: none;
+    }
+    .header{
+        margin-top: 5rem;
+    }
+    .profile_img{
+        margin-left: 3rem;
+    }
+    .desc{
+        text-align: center;
+        padding-top: 3rem;
+    }
+    
+}
+/*************************************************skills****************************************/
+#skills{
+    margin-top: 5rem;
+    height: 100vh;
+    width: 100%;
+}
+
+.progress{
+    margin: 2rem;
+    
+}
+.row{
+    margin-top: 2rem;
+}
+
+.prog_cont{
+    display: flex;
+    color: white;
+}
+.skill_name ,.skill_perc{
+    flex: 1;
+    height: 20px;
+    margin-left: 2rem;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 01.2rem;
+}
+.skill_perc{
+    margin-right: 0.5rem;
+    margin-left: 18rem;
+}
+
+@media (max-width :576px){
+    .skill_perc{
+        margin-right: 0;
+        margin-left: 8rem;
+    }
+
+}
+
+/***************************************************projects**********************************/
+
+
+.project_container{
+    height: auto;
+    width: 69%;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    border: 2px solid white;   
+}
+.project_image{
+    height: 400px;
+    width : 100%;
+    
+}
+
+.proj_header{
+    width: 100%;
+    margin-left: 12rem;
+    padding-top: 2rem;
+    color: white;
+}
+
+.coming_soon{
+    height: 400px;
+    width: 69%;
+    margin-left: 12rem;
+    margin-right: 12rem;
+   
+    background-color: rgb(51, 50, 50);
+}
+
+.coming_soon > h1{
+    text-align: center;
+    padding-top: 12rem;
+    color: white;
+
+}
+
+.more_proj{
+    height: 4rem;
+    width: 95%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 4rem;
+    color: rgb(72, 66, 66);
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color:aqua ;
+    padding-top: 0.75rem;
+}
+.more_proj > a{
+    color: rgb(72, 66, 66);
+    text-decoration: none;
+}
+.more_proj > a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width : 576px){
+    .more_proj {
+        width: 100%;
+        margin:20% 0 0 0;
+
+        font-size: 0.85rem;
+        padding:20px 0 0 5px;
+    }
+    .projects{
+        margin: 0;
+       }
+    .coming_soon , .project_container{
+        width: 100%;
+        height: 200px;
+        margin: 0;
+       }
+    .proj_header{ 
+        margin: 0;
+       }
+    #projects > .header{
+          margin: 3rem 0 0 0;
+          padding-bottom: 2rem;
+       }
+    .project_image{
+        height: 200px;
+        width : 100%;
+        
+    }
+    .coming_soon > h1{
+        padding-top:5rem ;
+    }
+}
+
+/***********************************************contact******************************************/
+.contact_wrapper > .header{
+    padding-top: 10px;
+}
+
+
+.contact_links{
+   
+    width: 100%;
+    margin-left: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 100px;
+}
+
+
+.icons_img > img{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 2.2rem;
+    margin-left: 2.2rem;
+}
+
+.icons_img{
+    height: 7rem;
+    width: 7rem;
+    background-color: rgb(24, 21, 21);
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.icon_name{
+    height: 40px;
+    width: 20rem;
+    color: white;
+    padding-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.icon{
+    max-width: 100%;
+    padding-left: 7rem;
+    align-items: center;
+}
+.right{
+    margin-left: 0.75rem;
+}
+.insta{
+    margin-left: 0.05rem;
+}
+
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.form-control{
+    width: 100%;
+    height: 52px !important;
+    border-radius: 5px;
+    font-weight: 400;
+    line-height: 1.8;
+    font-size: 15px;
+}
+.form-group{
+   width: 100%;
+   padding-bottom: 1.2rem;
+}
+
+.form_wrap{
+
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+@media (max-width : 576px){
+    .icon{
+        padding: 0 0 0 9rem;
+
+    }
+
+    .contact_wrapper > .row{
+        display: block;
+        padding-left: 3rem;
+    }
+
+}
+
+
+
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 2s all ease;
+    
+  }
+  
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+   
+  }
+
+
+
+
